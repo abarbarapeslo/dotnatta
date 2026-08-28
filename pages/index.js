@@ -12,7 +12,7 @@ function Home() {
             <h1>Bem-vinda(o)!</h1>
 
             <button type="button" onClick={GitHubLogin}>
-                Entrar com GitHub
+                Entrar com GitHub.
             </button>
         </>
     );
