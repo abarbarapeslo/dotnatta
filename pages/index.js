@@ -9,8 +9,6 @@ function Home() {
 
     return (
         <>
-            <h1>Bem-vinda(o)!</h1>
-
             <button type="button" onClick={GitHubLogin}>
                 Entrar com GitHub.
             </button>
