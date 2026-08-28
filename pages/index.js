@@ -3,7 +3,7 @@ import { signIn } from "next-auth/react";
 function Home() {
     async function GitHubLogin() {
         await signIn("github", {
-            callbackUrl: "/",
+            callbackUrl: ".",
         });
     }
 
