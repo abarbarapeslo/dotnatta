@@ -7,8 +7,11 @@ async function status(request, response) {
         text: "SELECT version();",
     });
 
+    const postgresVersion = queryVersion.rows[0].version;
+
     response.status(200).json({
         updated_at: updatedAt,
+        version: postgresVersion,
     });
 }
 
